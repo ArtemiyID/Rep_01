@@ -1,5 +1,5 @@
-int m = InputInt("Введите M:");
-int n = InputInt("Введите N:");
+int m = InputInt("Введи M:");
+int n = InputInt("Введи N:");
 Console.WriteLine($"Сумма элементов от {m} до {n} = {CountNaturalSum(m, n)}");
 
 int InputInt(string output)
